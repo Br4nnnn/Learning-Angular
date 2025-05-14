@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class PadreComponent {
   contador: number = 0;
   mensajepadre= "este es el mensaje del padre";
+event: string | undefined;
   
   incrementar(){
     this.contador++;
